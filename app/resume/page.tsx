@@ -9,13 +9,9 @@ export const metadata = {
 export default function Page() {
   return (
     <section>
-      <h1 className="font-semibold text-2xl mb-8 tracking-tighter">
-        My Resume
-      </h1>
-
-      <h2 className="text-xl mb-4 tracking-tighter">
+      <h1 className="font-semibold text-xl mb-4 tracking-tighter">
         Publications
-      </h2>
+      </h1>
 
       <div className="w-full flex flex-col md:flex-row space-x-0 md:space-x-2">
         <p className="text-neutral-600 dark:text-neutral-400 w-[100px] tabular-nums">
