@@ -19,7 +19,7 @@ export default function Page() {
         <a href="https://www.cs.utexas.edu/"
            className="text-neutral-900 dark:text-neutral-100 mb-8 tracking-tight"
         >
-          B.S. Computer Science, University of Texas at Austin.
+          B.S. Computer Science, University of Texas at Austin
         </a>
       </div>
 
