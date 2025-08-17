@@ -51,7 +51,7 @@ export default function Page() {
         href="https://fri.cns.utexas.edu/research-streams/geometry-space"
       />
 
-      <h3 className="font-semibold text-2xl mb-4 tracking-tighter">
+      <h3 className="font-semibold text-2xl mt-8 mb-4 tracking-tighter">
         Publications</h3>
       <ExternalPage
         date={formatDate('2024-07-01', false, false)}
