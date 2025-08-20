@@ -1,42 +1,18 @@
-# Portfolio Blog Starter
+# Elijah Flores' Portfolio
 
-This is a porfolio site template complete with a blog. Includes:
+Welcome to my personal porfolio website. It features my portfolio of projects, a blog, and an interactive resume. Includes:
 
-- MDX and Markdown support
-- Optimized for SEO (sitemap, robots, JSON-LD schema)
-- RSS Feed
-- Dynamic OG images
-- Syntax highlighting
-- Tailwind v4
-- Vercel Speed Insights / Web Analytics
-- Geist font
+- Portfolio showcasing projects with descriptions, tech stacks, and links
+- Blog written in MDX with Markdown support and syntax highlighting
+- Resume showcasing professional and academic experience with links
+- SEO optimization using sitemap, robots, and JSON-LD schema
+- Stylization using Tailwind v4
 
-## Demo
+## Live Site
 
-https://portfolio-blog-starter.vercel.app
+https://elijahflor.es
 
-## How to Use
+## License
 
-You can choose from one of the following two methods to use this repository:
-
-### One-Click Deploy
-
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/solutions/blog&project-name=blog&repository-name=blog)
-
-### Clone and Deploy
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [pnpm](https://pnpm.io/installation) to bootstrap the example:
-
-```bash
-pnpm create next-app --example https://github.com/vercel/examples/tree/main/solutions/blog blog
-```
-
-Then, run Next.js in development mode:
-
-```bash
-pnpm dev
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/templates) ([Documentation](https://nextjs.org/docs/app/building-your-application/deploying)).
+This project is based on the [Vercel Portfolio Blog Starter](https://github.com/vercel/examples/tree/main/solutions/blog).
+Customizations © Elijah Flores, released under the MIT License.
