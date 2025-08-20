@@ -1,6 +1,6 @@
-import Link from 'next'
 import { formatDate } from 'app/blog/utils'
 import { ExternalPage } from 'app/components/extern-page'
+import carpet from 'app/resume/carpet.png'
 
 export const metadata = {
   title: 'Resume',
@@ -52,7 +52,15 @@ export default function Page() {
       />
 
       <h3 className="font-semibold text-2xl mt-8 mb-4 tracking-tighter">
-        Publications</h3>
+        Awards</h3>
+      <ExternalPage
+        date={"Spring 2023"}
+        title={"CS 314 Alternative Sierpiński Carpet Contest, First Place"}
+        href={carpet.src}
+      />
+
+      <h4 className="font-semibold text-2xl mt-8 mb-4 tracking-tighter">
+        Publications</h4>
       <ExternalPage
         date={formatDate('2024-07-01', false, false)}
         title={"\"An Analysis of Blue Straggler Stars in Open Clusters\". Andrew Harvey, Yuvraj Sahu, Elijah Flores. Research Notes of the AAS, Volume 8, Number 7."}
