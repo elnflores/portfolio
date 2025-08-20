@@ -1,6 +1,6 @@
 # Elijah Flores' Portfolio
 
-Welcome to my personal porfolio website. It features my portfolio of projects, a blog, and an interactive resume. Includes:
+Welcome to my personal porfolio website! It features my portfolio of projects, a blog, and an interactive resume. Includes:
 
 - Portfolio showcasing projects with descriptions, tech stacks, and links
 - Blog written in MDX with Markdown support and syntax highlighting
