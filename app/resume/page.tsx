@@ -13,6 +13,11 @@ export default function Page() {
       <h1 className="font-semibold text-2xl mb-4 tracking-tighter">
         Education</h1>
       <ExternalPage
+        date={formatDate('2028-05-01', false, false)}
+        title={"M.S. Computer Science, Specialization in Machine Learning, Georgia Institute of Technology"}
+        href="https://scs.gatech.edu/"
+      />
+      <ExternalPage
         date={formatDate('2026-05-01', false, false)}
         title={"B.S. Computer Science, University of Texas at Austin"}
         href="https://www.cs.utexas.edu/"
@@ -21,12 +26,17 @@ export default function Page() {
       <h2 className="font-semibold text-2xl mt-8 mb-4 tracking-tighter">
         Experience</h2>
       <ExternalPage
+        date={formatDate('2026-01-01', false, false) + "\u2013Present"}
+        title={"Undergraduate Course Assistant, CS 313E, UT Austin"}
+        href="https://www.cs.utexas.edu/course-list#course-nm-994"
+      />
+      <ExternalPage
         date={formatDate('2025-06-01', false, false) + "\u2013" + formatDate('2025-08-01', false, false)}
         title={"Program Assistant, UTCS Academy for Machine Learning"}
         href="https://www.cs.utexas.edu/engage/outreach/academies/machine-learning"
       />
       <ExternalPage
-        date={formatDate('2024-08-01', false, false) + "\u2013Present"}
+        date={formatDate('2024-08-01', false, false) + "\u2013" + formatDate('2025-12-01', false, false)}
         title={"Undergraduate Course Assistant, CS 303E, UT Austin"}
         href="https://www.cs.utexas.edu/courses/303e-elements-computers-and-programming"
       />
