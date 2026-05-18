@@ -5,7 +5,7 @@ export default function Page() {
         My Portfolio
       </h1>
       <p className="mb-4">
-        {"Welcome! I'm Elijah Flores, a CS student at the University of Texas at Austin. My site is still under construction, but feel free to check back soon for updates."}
+        {"Welcome! I'm Elijah Flores, a CS master's student at Georgia Institute of Technology. My site is still under construction, but feel free to check back soon for updates."}
       </p>
     </section>
   )
